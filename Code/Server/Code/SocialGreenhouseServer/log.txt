@@ -1,0 +1,3 @@
+Modules loaded : 1
+Conditions A0B01 : 2
+Terminate batch job (Y/N)? 

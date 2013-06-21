@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Social Greenhouse</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Titles -->
+    <string name="title_activity_server_setup">Server instellen</string>
+    <string name="title_activity_twitter_setup">Twitter koppelen</string>
+    <string name="title_activity_module_detail">Status</string>
+    <string name="title_activity_adk">Hoofdunit instellen</string>
+    <string name="title_activity_nfc">Module gevonden</string>
+
+    <!-- Sensors -->
+    <string name="sensor_unknown">Onbekend</string>
+    <string name="sensor_temperature">Temperatuur</string>
+    <string name="sensor_soil_moisture">Grondvochtigheid</string>
+    <string name="sensor_wind_direction">Windrichting</string>
+    <string name="sensor_humidity">Luchtvochtigheid</string>
+    <string name="sensor_rainfall">Neerslag</string>
+
+    <!-- Actions -->
+    <string name="action_settings">Instellingen</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_help">Help</string>
+    <string name="action_server_setup">Server instellen</string>
+    <string name="action_twitter_setup">Twitter koppelen</string>
+
+    <!-- Errors -->
+    <string name="error_module_not_found">Module niet gevonden</string>
+    <string name="error_server_unreachable">Server onbereikbaar</string>
+    <string name="error_io_failure">Er is iets mis gegaan, probeer het nogmaals.</string>
+    <string name="error_server_address_invalid">Ongeldig adres</string>
+    <string name="error_nfc_tag_unreadable">De id-chip lijkt corrupt te zijn</string>
+    <string name="error_ssid_invalid">Ongelidge SSID</string>
+    <string name="error_phrase_invalid">Ongeldige phrase</string>
+    <string name="error_ip_invalid">Ongeldig IP adres</string>
+    <string name="error_port_invalid">Ongeldig poortnummer</string>
+    <string name="error_adk">Hoofdunit kon niet worden bereikt - is deze nog aangesloten?</string>
+    <string name="error_threshold_missing">Voer een grens in</string>
+    <string name="error_pin_invalid">Geen geldige PIN</string>
+    <string name="error_twitter_unreachable">Twitter onbereikbaar</string>
+    <string name="error_twitter_unautohrized">Autorisatie mislukt, probeer het nogmaals</string>
+
+    <!-- Hints -->
+    <string name="hint_pin">PIN</string>
+    <string name="hint_custom_name">Aangepaste naam</string>
+    <string name="hint_ssid">SSID</string>
+    <string name="hint_phrase">Phrase</string>
+    <string name="hint_ip">IP adres</string>
+    <string name="hint_port">Poortnummer</string>
+    <string name="hint_tweet">Tweet</string>
+    <string name="hint_threshold">0.0</string>
+
+    <!-- Phrases -->
+    <string name="phrase_minimum">Minimum</string>
+    <string name="phrase_maximum">Maximum</string>
+    <string name="phrase_no_data">Nog geen gegevens</string>
+    <string name="phrase_server_address">Server adres</string>
+    <string name="phrase_connect">Verbind</string>
+    <string name="phrase_connecting">Verbinden…</string>
+    <string name="phrase_authorize">Autoriseer</string>
+    <string name="phrase_adk_set_network">Netwerk instellen</string>
+    <string name="phrase_adk_set_server">Server instellen</string>
+    <string name="phrase_adk_set_network_success">Netwerk succesvol ingesteld</string>
+    <string name="phrase_adk_set_server_success">Server succesvol ingesteld</string>
+    <string name="phrase_adk_choose_security_protocol">Kies beveiligingsprotocol</string>
+    <string name="phrase_twitter_authorize_success">Je Twitter-account is nu gekoppeld</string>
+    <string name="phrase_trigger_data_save_success">Opgeslagen</string>
+    <string name="phrase_module_delete_success">Verwijderd</string>
+    <string name="phrase_module_save_success">Opgeslagen</string>
+
+    <!-- Other -->
+    <string name="about_server_setup">Voer hieronder het adres in van de server waarmee je wilt verbinden.</string>
+
+    <string-array name="security_protocols">
+        <item>Open</item>
+        <item>WPA</item>
+    </string-array>
+
+</resources>

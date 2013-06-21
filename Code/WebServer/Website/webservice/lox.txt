@@ -1,0 +1,1 @@
+{"SerialNo":10000001,"Name":"Sla","SensorType":"soil_moisture"}
